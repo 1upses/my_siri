@@ -1,10 +1,14 @@
 from pvrecorder import PvRecorder
+from dotenv import load_dotenv
+import os
 import struct
 import wave
 import keyboard
 
+load_dotenv()
+
 def audio_to_file(filename: str, key: str) -> None:
-    recorder = PvRecorder(device_index=2, frame_length=512)
+    recorder = PvRecorder(device_index=int(os.getenv("INPUT_DEVICE_INDEX")), frame_length=512)
     audio = []
     
     while not keyboard.is_pressed(key):
