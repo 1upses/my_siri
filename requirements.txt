@@ -1,0 +1,6 @@
+gtts
+pydub
+openai
+python-dotenv
+pvrecorder
+keyboard
