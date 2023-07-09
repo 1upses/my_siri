@@ -15,5 +15,5 @@ INPUT_DEVICE_INDEX=2
 
 - éxécutez la commande ``python main.py``
 - appuyez sur 'e' pour enregistrer votre message
-- attendez environ 30 secondes pour recevoir la réponse de l'assistant
+- attendez entre 3 et 10 secondes pour recevoir la réponse de l'assistant
 - l'assistant se souvient de ce que vous lui avez dit précédemment
